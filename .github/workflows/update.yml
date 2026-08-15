@@ -1,0 +1,25 @@
+name: Build README SVGs
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install requests
+      - run: python today.py
+        env:
+          METRICS_TOKEN: ${{ secrets.METRIC_TOKENS }}
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg
+          git commit -m "chore: update terminal stats" || exit 0
+          git push
