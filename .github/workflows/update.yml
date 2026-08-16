@@ -16,7 +16,7 @@ jobs:
       - run: pip install requests
       - run: python today.py
         env:
-          METRICS_TOKEN: ${{ secrets.METRIC_TOKENS }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
       - run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"

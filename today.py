@@ -63,7 +63,7 @@ def generate_svg(theme_bg, theme_fg):
           width: 100%;
           height: 100%;
         }}
-        .header {{ color: #58a6ff; font-weight: bold; }}
+        .header {{ color: #61304B; font-weight: bold; }}
         .text-green {{ color: #2ea043; font-weight: bold; }} 
         .dots-wine {{ color: #722f37; }}                   
         .val-white {{ color: {theme_fg}; }}                    
@@ -103,18 +103,18 @@ def generate_svg(theme_bg, theme_fg):
 
 <span class="text-green">OS</span><span class="dots-wine">: ......................</span> <span class="val-white">Windows / Kali Linux</span>
 <span class="text-green">Host</span><span class="dots-wine">: ....................</span> <span class="val-white">Computer Engineering @ UNIFEI</span>
-<span class="text-green">Focus</span><span class="dots-wine">: ...................</span> <span class="val-white">Security &amp; C/Python</span>
+<span class="text-green">Focus</span><span class="dots-wine">: ...................</span> <span class="val-white">Cybersecurity Research</span>
 <span class="text-green">Member</span><span class="dots-wine">: ..................</span> <span class="val-white">HawkSec</span>
 
 <span class="header">- GitHub Metrics -------------------------------</span>
 
 <span class="text-green">Repositories</span><span class="dots-wine">: ............</span> <span class="val-white">{stats['repos']}</span>
-<span class="text-green">Total Commits</span><span class="dots-wine">: ...........</span> <span class="val-white">{stats['commits']}</span>
-<span class="text-green">Stars Earned</span><span class="dots-wine">: ............</span> <span class="val-white">{stats['stars']}</span>
+<span class="text-green">Total<span class="dots-wine">.</span>Commits</span><span class="dots-wine">: ...........</span> <span class="val-white">{stats['commits']}</span>
+<span class="text-green">Stars<span class="dots-wine">.</span>Earned</span><span class="dots-wine">: ............</span> <span class="val-white">{stats['stars']}</span>
 <span class="text-green">Followers</span><span class="dots-wine">: ...............</span> <span class="val-white">{stats['followers']}</span>
 
-<span class="text-green">Languages.Programming</span><span class="dots-wine">: ...</span> <span class="val-white">C, Python, Bash</span>
-<span class="text-green">Languages.Real</span><span class="dots-wine">: ..........</span> <span class="val-white">Portuguese, English, French</span>
+<span class="text-green">Languages<span class="dots-wine">.</span>Programming</span><span class="dots-wine">: ...</span> <span class="val-white">C, Python, Bash</span>
+<span class="text-green">Languages<span class="dots-wine">.</span>Real</span><span class="dots-wine">: ..........</span> <span class="val-white">Portuguese, English, French</span>
 <span class="text-green">Tools</span><span class="dots-wine">: ...................</span> <span class="val-white">Burp Suite, Wireshark, Docker</span>
         </div>
       </div>
