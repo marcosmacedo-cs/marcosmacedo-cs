@@ -1,0 +1,76 @@
+<svg fill="none" width="850" height="480" viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          background-color: #161b22;
+          color: #c9d1d9;
+          font-family: monospace;
+          font-size: 13px;
+          white-space: pre;
+          padding: 20px;
+          display: flex;
+          gap: 20px;
+          border-radius: 8px;
+          box-sizing: border-box;
+          width: 100%;
+          height: 100%;
+        }
+        .header { color: #61304B; font-weight: bold; }
+        .text-green { color: #2ea043; font-weight: bold; } 
+        .dots-wine { color: #722f37; }                   
+        .val-white { color: #c9d1d9; }                    
+        .art { color: #2ea043; }
+      </style>
+      <div class="container">
+        <div class="art">
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⢀⠀⠀⠀⣰⡇⢀⡄⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡄⠀⣿⣰⡀⢠⣿⣇⣾⡇⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣰⣿⣿⢇⣾⣿⣼⣿⢃⡞⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⢋⣾⣿⣿⣿⣯⣿⠇⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⢟⣵⣿⣿⣿⣿⣿⣿⣯⡞⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣵⣿⣿⣿⣿⣿⣿⣿⣿⡿⡁⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣦⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⡡⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀
+⠀⠀⢀⣀⣄⣀⡀⡀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡥⠀⠀⠀⠀⠀⠀
+⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀
+⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀
+⠘⣿⠋⠛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣀⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⡛⠃⠀⠀
+⠀⠀⠀⠀⠀⠀⢈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀
+⠀⠀⠀⠀⠀⢰⣾⣿⣿⣿⣿⠟⠁⠉⠙⠻⠯⡛⠿⠛⠻⠿⠟⠛⠓⠀⠀
+⠀⠜⡿⠳⡶⠻⣿⣿⣿⣿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣠⣽⣧⣾⠛⠉⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠉⠟⠁⠘⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+        </div>
+        <div>
+<span class="header">- marcos@macedo ----------------------------------</span>
+
+<span class="text-green">Name</span><span class="dots-wine">:.....................</span> <span class="val-white">Marcos Vinícius</span>
+<span class="text-green">Education</span><span class="dots-wine">:................</span> <span class="val-white">Computer Engineering</span>
+<span class="text-green">Location</span><span class="dots-wine">:.................</span> <span class="val-white">Minas Gerais, Brazil</span>
+
+<span class="text-green">OS</span><span class="dots-wine">: ......................</span> <span class="val-white">Windows / Kali Linux</span>
+<span class="text-green">Host</span><span class="dots-wine">: ....................</span> <span class="val-white">Computer Engineering @ UNIFEI</span>
+<span class="text-green">Focus</span><span class="dots-wine">: ...................</span> <span class="val-white">Cybersecurity Research</span>
+<span class="text-green">Member</span><span class="dots-wine">: ..................</span> <span class="val-white">HawkSec</span>
+
+<span class="header">- GitHub Metrics -------------------------------</span>
+
+<span class="text-green">Repositories</span><span class="dots-wine">: ............</span> <span class="val-white">6</span>
+<span class="text-green">Total<span class="dots-wine">.</span>Commits</span><span class="dots-wine">: ...........</span> <span class="val-white">22</span>
+<span class="text-green">Stars<span class="dots-wine">.</span>Earned</span><span class="dots-wine">: ............</span> <span class="val-white">0</span>
+<span class="text-green">Followers</span><span class="dots-wine">: ...............</span> <span class="val-white">1</span>
+
+<span class="text-green">Languages<span class="dots-wine">.</span>Programming</span><span class="dots-wine">: ...</span> <span class="val-white">C, Python, Bash</span>
+<span class="text-green">Languages<span class="dots-wine">.</span>Real</span><span class="dots-wine">: ..........</span> <span class="val-white">Portuguese, English, French</span>
+<span class="text-green">Tools</span><span class="dots-wine">: ...................</span> <span class="val-white">Burp Suite, Wireshark, Docker</span>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
