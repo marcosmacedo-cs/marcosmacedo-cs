@@ -10,7 +10,7 @@
           white-space: pre;
           padding: 20px;
           display: flex;
-          gap: 15px;
+          gap: 20px;
           border-radius: 8px;
           box-sizing: border-box;
           width: 100%;
@@ -21,6 +21,7 @@
         .dots-wine { color: #B3252C; }                   
         .val-white { color: #24292e; }                    
         .art { color: #2ea043; line-height: 1.1; }
+        .info-col { line-height: 1.32; }
       </style>
       <div class="container">
         <div class="art">
@@ -43,7 +44,7 @@
 ⠀⠈⣽⣿⣿⣿⣿⣿⣿⡟⠉⣰⣿⡿⣡⣾⣿⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⢻⣶⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⣠⣿⣿⣿⣿⣿⣿⣿⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⣱⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⢸⣾⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠐⠛⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢫⣿⠏⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣼⡄⠀⣿⣿⡏⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⣾⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢟⣴⡿⢋⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⾾⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢟⣴⡿⢋⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠁⠀⡿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -52,34 +53,34 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠉⠀⠀⠰⠿⣿⣿⠿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⡏⠀⠻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
         </div>
-        <div>
-<span class="header">- marcos@macedo -----------------------------</span>
+        <div class="info-col">
+<span class="header">- marcos@macedo ----------------------------------</span>
 
-<span class="text-green">Name</span><span class="dots-wine">:..........</span> <span class="text-green">Marcos Vinícius</span>
-<span class="text-green">Education</span><span class="dots-wine">:.....</span> <span class="text-green">Computer Engineering</span>
-<span class="text-green">Location</span><span class="dots-wine">:......</span> <span class="text-green">Minas Gerais, Brazil</span>
+<span class="text-green">Name</span><span class="dots-wine">...................:</span> <span class="val-white">Marcos Vinícius</span>
+<span class="text-green">Education</span><span class="dots-wine">..............:</span> <span class="val-white">Computer Engineering</span>
+<span class="text-green">Location</span><span class="dots-wine">...............:</span> <span class="val-white">Minas Gerais, Brazil</span>
 
-<span class="text-green">OS</span><span class="dots-wine">:............</span> <span class="text-green">Windows / Kali Linux</span>
-<span class="text-green">Host</span><span class="dots-wine">:..........</span> <span class="text-green">Computer Engineering @ UNIFEI</span>
-<span class="text-green">Focus</span><span class="dots-wine">:.........</span> <span class="text-green">Cybersecurity Research</span>
-<span class="text-green">Member</span><span class="dots-wine">:........</span> <span class="text-green">HawkSec</span>
+<span class="text-green">OS</span><span class="dots-wine">.....................:</span> <span class="val-white">Windows / Kali Linux</span>
+<span class="text-green">Host</span><span class="dots-wine">...................:</span> <span class="val-white">Computer Engineering @ UNIFEI</span>
+<span class="text-green">Focus</span><span class="dots-wine">..................:</span> <span class="val-white">Cybersecurity Research</span>
+<span class="text-green">Member</span>.................<span class="dots-wine">:</span> <span class="val-white">HawkSec</span>
 
-<span class="header">- GitHub Metrics --------------------------</span>
+<span class="header">- GitHub Metrics -------------------------------</span>
 
-<span class="text-green">Repositories</span><span class="dots-wine">:..</span> <span class="text-green">5</span>
-<span class="text-green">Total<span class="dots-wine">.</span>Commits</span><span class="dots-wine">:.</span> <span class="text-green">14</span>
-<span class="text-green">Stars<span class="dots-wine">.</span>Earned</span><span class="dots-wine">:..</span> <span class="text-green">0</span>
-<span class="text-green">Followers</span><span class="dots-wine">:.....</span> <span class="text-green">1</span>
+<span class="text-green">Repositories</span><span class="dots-wine">...........:</span> <span class="val-white">5</span>
+<span class="text-green">Total<span class="dots-wine">.</span>Commits</span><span class="dots-wine">..........:</span> <span class="val-white">15</span>
+<span class="text-green">Stars<span class="dots-wine">.</span>Earned</span><span class="dots-wine">...........:</span> <span class="val-white">0</span>
+<span class="text-green">Followers</span><span class="dots-wine">..............:</span> <span class="val-white">1</span>
 
-<span class="text-green">Languages<span class="dots-wine">.</span>Programming</span><span class="dots-wine">:.</span> <span class="text-green">C, Python, Bash</span>
-<span class="text-green">Languages<span class="dots-wine">.</span>Real</span><span class="dots-wine">:........</span> <span class="text-green">Portuguese, English, French</span>
-<span class="text-green">Tools</span><span class="dots-wine">:.........</span> <span class="text-green">Burp Suite, Wireshark, Docker</span>
+<span class="text-green">Languages<span class="dots-wine">.</span>Programming</span><span class="dots-wine">..:</span> <span class="val-white">C, Python, Bash</span>
+<span class="text-green">Languages<span class="dots-wine">.</span>Real</span><span class="dots-wine">.........:</span> <span class="val-white">Portuguese, English, French</span>
+<span class="text-green">Tools</span><span class="dots-wine">..................:</span> <span class="val-white">Burp Suite, Wireshark, Docker</span>
 
-<span class="header">- Contact ----------------------------------</span>
+<span class="header">- Contact --------------------------------------</span>
 
-<span class="text-green">Email</span><span class="dots-wine">:.........</span> <span class="text-green">marcosmacedo-cs@proton.me</span>
-<span class="text-green">LinkedIn</span><span class="dots-wine">:......</span> <span class="text-green">in/marcmacedo/</span>
-<span class="text-green">Discord</span><span class="dots-wine">:.......</span> <span class="text-green">maarcolasx</span>
+<span class="text-green">Email</span><span class="dots-wine">..................:</span> <span class="val-white">marcosmacedo-cs@proton.me</span>
+<span class="text-green">LinkedIn</span>...............<span class="dots-wine">:</span> <span class="val-white">in/marcmacedo/</span>
+<span class="text-green">Discord</span>................<span class="dots-wine">:</span> <span class="val-white">maarcolasx</span>
         </div>
       </div>
     </div>
