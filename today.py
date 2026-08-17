@@ -45,7 +45,7 @@ def fetch_stats():
 stats = fetch_stats()
 
 def generate_svg(theme_bg, theme_fg):
-    return f"""<svg fill="none" width="850" height="480" viewBox="0 0 850 480" xmlns="http://www.w3.org/2000/svg">
+    return f"""<svg fill="none" width="900" height="520" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -57,7 +57,7 @@ def generate_svg(theme_bg, theme_fg):
           white-space: pre;
           padding: 20px;
           display: flex;
-          gap: 20px;
+          gap: 6px;
           border-radius: 8px;
           box-sizing: border-box;
           width: 100%;
