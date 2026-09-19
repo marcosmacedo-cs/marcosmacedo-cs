@@ -131,8 +131,8 @@ def generate_svg(theme_bg, theme_fg):
 <span class="text-green">Stars<span class="dots-wine">.</span>Earned</span><span class="dots-wine">...........:</span> <span class="val-white">{stats['stars']}</span>
 <span class="text-green">Followers</span><span class="dots-wine">..............:</span> <span class="val-white">{stats['followers']}</span>
 
-<span class="text-green">Languages<span class="dots-wine">.</span>Programming</span><span class="dots-wine">..:</span> <span class="val-white">C, Python, Bash</span>
-<span class="text-green">Languages<span class="dots-wine">.</span>Real</span><span class="dots-wine">.........:</span> <span class="val-white">Portuguese, English, French</span>
+<span class="text-green">Languages<span class="dots-wine">.</span>Programming</span><span class="dots-wine">..:</span> <span class="val-white">C, Python, Bash, Haskell </span>
+<span class="text-green">Languages<span class="dots-wine">.</span>Real</span><span class="dots-wine">.........:</span> <span class="val-white">Portuguese, English</span>
 <span class="text-green">Tools</span><span class="dots-wine">..................:</span> <span class="val-white">Burp Suite, Wireshark, Docker</span>
 
 <span class="header">- Contact --------------------------------------</span>
